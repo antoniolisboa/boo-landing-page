@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Ubuntu+Mono:wght@400;700&display=swap');
+
+/* Reset CSS */
+* {
+    margin: 0; /* Reset das margens entre as tags html */
+    padding: 0; /* Reset das margens estre tag e conteúdo*/
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(90.66deg, #025F55 9.38%, #025F55 9.39%, #02C39A 83.19%);
+}
+
+/* Cabeçalho */
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-img {
+    height: 72px;
+}
+
+.cabecalho .menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho .menu-item {
+    font-family: 'Ubuntu Mono', monospace;
+    color: #F0F3BD;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* Principal */
+.principal {
+    border-top: 0.5px solid #F0F3BD;
+    margin-bottom: 42px;
+}
+
+.principal .primario {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.principal .primario-div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.principal .primario .titulo {
+    font-family: 'Press Start 2P', cursive;
+    color: #F0F3BD;
+    font-weight: 400;
+    font-size: 64px;
+}
+
+.principal .primario .subtitulo {
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: 400;
+    font-size: 24px;
+    color: #F0F3BD;    
+}
+
+.principal .botao {
+    background-color: #F0F3BD;
+    height: 60px;
+    width: 180px;
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: 400;
+    font-size: 24px;
+    border-radius: 10px;
+    border: none;
+    box-shadow:  4px 5px 4px rgba(0, 0, 0, 0.25);
+    color: #494949;
+}
+
+.principal .botao:hover {
+    background-color: #c3c59d;
+}
+
+.principal .primario-img {
+    height: 430px;
+}
+
+.principal .secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+    margin-top: 42px;
+}
+
+.principal .secundario .titulo {
+    border-top: 0.5px solid #F0F3BD;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    padding-top: 38px;
+    color: #F0F3BD;
+    margin-bottom: 16px;
+}
+
+.principal .secundario .paragrafo {
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: 400;
+    font-size: 22px;
+    color: #F0F3BD;
+}
+
+/* Rodapé */
+.rodape {
+    padding: 38px;
+    border-top: 0.5px solid #F0F3BD;
+}
+
+.rodape .rodape-img {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
